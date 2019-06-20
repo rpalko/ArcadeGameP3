@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+}
+
+.score-panel {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 500px;
+  padding-top: 50px;
+}
+
+.hearts li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 25px;
+  color: red;
+}
+
+.hide-heart {
+  visibility: hidden;
+}
+
+.timer {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.modal-startgame {
+  visibility: visible;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  border: solid;
+  background-color: #FF5C5C;
+  padding-bottom: 20px;
+}
+
+.modal-gameover {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  border: solid;
+}
+
+.gameover-content {
+  background-color: #FF5C5C;
+  width: 60%
+  margin: auto;
+  padding: 60px;
+}
